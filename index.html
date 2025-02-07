@@ -80,17 +80,20 @@
     </section>
 
 <!-- about -->
-   <!-- about -->
+    
 <section class="about">
     <div class="abouts-me">
         <h1>About Me</h1>
         <p>
             I’m Ramyasree, an engineering student<br> 
-            with a strong passion for coding and<br> innovation.
+            with a strong passion for coding and<br> innovation. 
+            <span id="moreText" style="display: none;">
+                I actively participate in hackathons and coding competitions, always eager to learn new technologies and improve my problem-solving skills. My goal is to become a skilled full-stack developer and contribute to impactful projects.<br>
+            
             Inspired by the quote,<br>
-        </p>
-            <span id="moreText" style="display: none;"><p>
-                 <span style="color:rgb(11, 12, 12); font-size: large; font-weight: 600;">“Keep on trying no matter what the result is,”</span><br>
+            <span style="color:rgb(11, 12, 12); font-size: large; font-weight: 600;">
+                “Keep on trying no matter what the result is,”
+            </span><br>
             I approach each challenge as an<br>
             opportunity to learn and grow. I’ve worked<br>
             on projects involving responsive web <br>
@@ -99,11 +102,25 @@
             coding, I enjoy singing and playing chess. <br>
             I’m eager to keep building and <br>
             collaborating on projects that make a difference.
-            </span>
-          </p>
-        <button id="readMoreBtn" class="read-more-btn">Read More</button>
+        </span>
+        </p>
+        <button id="readMoreBtn" class="read-more-btn" onclick="toggleText()">Read More</button>
     </div>
 </section>
+<script>
+    function toggleText() {
+        var moreText = document.getElementById("moreText");
+        var btnText = document.getElementById("readMoreBtn");
+
+        if (moreText.style.display === "none") {
+            moreText.style.display = "inline";
+            btnText.textContent = "Read Less";
+        } else {
+            moreText.style.display = "none";
+            btnText.textContent = "Read More";
+        }
+    }
+</script>
 
 
 <!-- contact -->
