@@ -89,6 +89,11 @@ p{
     
     
 }
+
+.read-more-btn:hover {
+        background-color: #0f5c7b; /* Darker shade on hover */
+    }
+
 .contact{
     background-color: #7AB2D3;
     /* height: 100px; */
@@ -131,6 +136,9 @@ p{
         width: 90%;
         height: auto;
     }
+    .read-more-btn:hover {
+        background-color: #0f5c7b; /* Darker shade on hover */
+    }
     
 
 }
@@ -139,6 +147,9 @@ p{
     .hero, .resume-main, .projects{
         padding: 100px;
      }
+    .read-more-btn:hover {
+        background-color: #0f5c7b; /* Darker shade on hover */
+    }
      /* .projects{
         display: flex;
         flex-direction: column;
@@ -159,6 +170,9 @@ p{
         align-items: center;
         gap: 20px;
         padding-top: 0%;
+    }
+    .read-more-btn:hover {
+        background-color: #0f5c7b; /* Darker shade on hover */
     }
    
 }
