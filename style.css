@@ -48,6 +48,9 @@ p{
     padding-top: 5%;
     
 }
+a{
+    font-size: 18px;
+}
 .images{
     width: 200px;
     height: 200px;
@@ -139,7 +142,9 @@ p{
     .read-more-btn:hover {
         background-color: #0f5c7b; /* Darker shade on hover */
     }
-    
+    h1{
+        font-size: 18px;
+    }
 
 }
 
