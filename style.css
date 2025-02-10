@@ -120,6 +120,10 @@ a{
 .quote{
     background-color: #7AB2D3;
 }
+/* Hide button on larger screens */
+#read-more-intro {
+    display: none;
+}
 
 
 @media (max-width: 768px) {
@@ -144,6 +148,21 @@ a{
     }
     h1{
         font-size: 18px;
+    }
+    #read-more-intro {
+        display: block;
+        width: 100%;
+        font-size: 16px;
+        padding: 10px;
+        border-radius: 5px;
+        background-color: #007bff;
+        color: white;
+        border: none;
+        cursor: pointer;
+        margin-top: 10px;
+    }
+    #read-more-intro:hover {
+        background-color: #0056b3;
     }
 
 }
