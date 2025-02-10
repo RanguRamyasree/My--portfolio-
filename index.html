@@ -23,11 +23,23 @@
          <button id="read-more-intro" onclick="toggleIntro()">Read More</button>
         </div>
             <!-- <img src="leaves-back.webp" class="hero-img"> -->
-        
-       
-    
     
     </section>
+    <script>
+function toggleIntro() {
+    var fullIntro = document.getElementById("full-intro");
+    var button = document.getElementById("read-more-intro");
+
+    if (fullIntro.style.display === "none" || fullIntro.style.display === "") {
+        fullIntro.style.display = "block";  // Show full intro text
+        button.textContent = "Read Less";
+    } else {
+        fullIntro.style.display = "none";   // Hide full intro text
+        button.textContent = "Read More";
+    }
+}
+</script>
+
 
 <!-- resume -->
     <section class="resume-main">
