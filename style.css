@@ -150,11 +150,9 @@ a{
         font-size: 18px;
     }
     #full-intro {
-        display: -webkit-box;
-        -webkit-line-clamp: 3; /* Show only 3 lines */
-        -webkit-box-orient: vertical;
-        overflow: hidden;
+        display: none;
     }
+    
     #read-more-intro {
         display: block;
         width: 100%;
