@@ -124,6 +124,9 @@ a{
 #read-more-intro {
     display: none;
 }
+#full-intro {
+    display: block;
+}
 
 
 @media (max-width: 768px) {
@@ -149,7 +152,9 @@ a{
     h1{
         font-size: 18px;
     }
-    
+    #full-intro {
+        display: none;
+    }
     
     #read-more-intro {
         display: block;
