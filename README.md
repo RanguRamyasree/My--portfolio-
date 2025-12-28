@@ -1,4 +1,4 @@
-📌 Portfolio Website
+📌 Portfolio Website<br><br>
 🔹 About the Project
 
 This is my personal portfolio website created to showcase my projects, skills, and learning journey in web development and Python. The website highlights my academic projects, internships, and technical experience in a simple and structured way.
@@ -19,15 +19,15 @@ JavaScript
 <hr>
 🔹 Live Demo
 
-🔗 View Portfolio Website
+🔗 <a href="https://ranguramyasree.github.io/My--portfolio-/">View Portfolio Website</a>
 <hr>
-🔹 Purpose
+🔹 Purpose<br>
 The main purpose of this portfolio is to present my work to recruiters and showcase my growth as a beginner-to-intermediate web developer while continuously learning new technologies.
 <hr>
-🔹 How to Use
+🔹 How to Use<br>
 Clone the repository
 
-git clone https://github.com/RanguRamyasree/<repository-name>
+git clone https://github.com/RanguRamyasree/My--portfolio-.git
 
 Open index.html in a browser
 <hr>
@@ -41,5 +41,5 @@ Optimize performance
 🔹 Contact
 
 Name: Ramyasree Rangu
-Email: ramyasri25211@gmail.com
+Email: ranguramyasree1@gmail.com
 LinkedIn: https://linkedin.com/in/ramyasree-rangu-b23b832a2
